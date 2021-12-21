@@ -15,7 +15,7 @@ function App() {
   const [showChat, setShowChat] = useState(false);
 
   const handleJoinChat = (e) => {
-    if ((userName, roomId)) {
+    if (userName, roomId) {
 
       socket.emit("joinChat", roomId);
 
