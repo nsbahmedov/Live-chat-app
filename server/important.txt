@@ -1,0 +1,7 @@
+npm install express socket.io cors
+
+add this to package.json file :
+
+"scripts": {
+    "start": "nodemon index.js"
+  }
